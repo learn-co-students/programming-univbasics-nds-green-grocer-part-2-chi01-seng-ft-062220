@@ -5,7 +5,6 @@ def find_item_by_name_in_collection(name, collection)
     return grocery_item if grocery_item[:item] === name 
     index += 1
   end
-
   nil
 end
 
